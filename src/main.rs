@@ -63,5 +63,5 @@ fn main() -> io::Result<()> {
     };
 
     debug!("Starting server");
-    HttpServer::new(app).bind("0.0.0.0:8088")?.run()
+    HttpServer::new(app).bind("0.0.0.0:9099")?.run()
 }
